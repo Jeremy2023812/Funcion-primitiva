@@ -1,0 +1,12 @@
+% Titulo: Ejercicio numero 1
+% Descripcion: Scrip para la funcion ∫ xdx [4,1]
+% Autor: Irving Jeremy Martinez Avila @Neo
+% Fecha: 19 de mayo del 2021
+clear
+clc
+syms x;
+f=imput("Escriba la funcion");
+F=inline (char(f));
+a=imput ("Desde:");
+b=imput ("hasta:");
+F=int(f,a,b)
