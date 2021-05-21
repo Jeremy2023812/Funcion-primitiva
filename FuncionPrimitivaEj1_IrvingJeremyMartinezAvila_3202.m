@@ -5,8 +5,8 @@
 
 %Paqueteria symbolic.
 pkg load symbolic
-%Crea y da un valor inicial a una variable.
+%Dame un valor inicial a una variable.
 syms t;
-%Resultado de la funcion. 
+%El resultado es. 
 int(t)
 ans = (sym)
