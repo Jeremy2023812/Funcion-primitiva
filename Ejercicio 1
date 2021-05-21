@@ -1,12 +1,12 @@
 % Titulo: Ejercicio numero 1
-% Descripcion: Scrip para la funcion ∫ xdx [4,1]
+% Descripcion: Script para desarrrollar el Ejericio1
 % Autor: Irving Jeremy Martinez Avila @Neo
 % Fecha: 19 de mayo del 2021
-clear
-clc
-syms x;
-f=imput("Escriba la funcion");
-F=inline (char(f));
-a=imput ("Desde:");
-b=imput ("hasta:");
-F=int(f,a,b)
+
+%Paqueteria symbolic.
+pkg load symbolic
+%Crea y da un valor inicial a una variable.
+syms t;
+%Resultado de la funcion. 
+int(t)
+ans = (sym)
